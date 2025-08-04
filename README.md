@@ -8,7 +8,7 @@ This project uses the kNN (k-Nearest Neighbors) which is a classifier which extr
 - Frequency and time features altogether
 
 ## How it works
-In the ESC-50 there are three different of audio classes (from the ESC-50 dataset). I've chosen three of them:
+In the ```ESC-50/``` folder there are three different of audio classes (from the ESC-50 dataset). I've chosen three of them:
 - Wind sounds
 - Vacuum cleaner
 - Airplane
