@@ -35,7 +35,7 @@ MATLAB pca function included in the machine learning toolbox.
 For every set of feature there is a plot that shows kNN recognition rate depending on the number of k-Nearest Neighbors
 - [Result plot](Assets/results_plot.png)
 
-## Reqirements
+## Requirements
 This project requires the following MATLAB toolboxes:
 - Audio Toolbox
 - Signal Processing Toolbox
