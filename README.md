@@ -13,7 +13,7 @@ In the ESC-50 there are three different of audio classes (from the ESC-50 datase
 - Vacuum cleaner
 - Airplane
 
-The reason behind this choise is that I thought these were classes of sounds that could easily be confused with each other. Files are divided by the script: 70% for training the model, 30% for testing.
+The reason behind this choice is that I thought these were classes of sounds that could easily be confused with each other. Files are divided by the script: 70% for training the model, 30% for testing.
 
 ## Project structure
 - ```Project.m``` is the main file
