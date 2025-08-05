@@ -7,6 +7,9 @@ This project uses the kNN (k-Nearest Neighbors) which is a classifier which extr
 - Time features
 - Frequency and time features altogether
 
+## Warning
+This project needs some auxiliary functions that you can find on this GitHub repository: [Original repository with helper functions](https://github.com/pikrakis/Introduction-to-Audio-Analysis---a-MATLAB-approach). These functions are crucial for feature extraction process. You can place them in the ```Functions/``` folder.
+
 ## How it works
 In the ```ESC-50/``` folder there are three different of audio classes (from the ESC-50 dataset). I've chosen three of them:
 - Wind sounds
