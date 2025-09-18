@@ -8,8 +8,8 @@ This project uses the kNN (k-Nearest Neighbors) which is a classifier which extr
 - Frequency and time features altogether
 
 ## Warning
-This project needs some helper functions that you can find on this GitHub repository: 
-[Original repository with helper functions](https://github.com/pikrakis/Introduction-to-Audio-Analysis---a-MATLAB-approach). 
+This project needs some helper functions that you can find on the ```library``` folder of this 
+[GitHub repository](https://github.com/pikrakis/Introduction-to-Audio-Analysis---a-MATLAB-approach). 
 These functions are crucial for feature extraction process. You can place them in the ```Functions/``` folder.
 
 ## How it works
