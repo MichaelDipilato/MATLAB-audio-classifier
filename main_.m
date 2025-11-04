@@ -18,10 +18,10 @@ airplaneTest = airplaneFiles(((length(airplaneFiles)*70)/100) + 1:end);
 
 % running features extraction script
 disp('extracting features...')
-run Extract_Features.m
+run extract_features.m
 
 % normalization
-run Normalization.m
+run normalization.m
 
 disp('principal component analisys...')
 [~,score,~,~,explained] = pca(allFeats);
@@ -48,6 +48,6 @@ n_coeff = find(varSum >= 80, 1);
 disp(['n. of coefficients with variance > 80% : ',mat2str(n_coeff)])
 
 % running Knn scripts
-run Knn_train_fdf.m
-run Knn_train_tdf.m
-run Knn_train_all.m
+run knn_train_fdf.m
+run knn_train_tdf.m
+run knn_train_all.m

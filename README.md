@@ -21,14 +21,14 @@ In the ```ESC-50/``` folder there are three different of audio classes (from the
 The reason behind this choice is that I thought these were classes of sounds that could easily be confused with each other. Files are divided by the script: 70% for training the model, 30% for testing.
 
 ## Project structure
-- ```Main.m``` is the main file
+- ```main.m``` is the main file
 - ```Functions/``` contains auxiliary functions for feature extraction 
 - ```Scripts/``` contains:
-  - ```Extract_Features.m``` extracts time and frequency features for each class of sounds
-  - ```Normalization.m``` brings back every value for every feature in a common scale of values, and it is a very important step for both the PCA and the kNN
-  - ```Knn_train_fdf.m``` trains and tests kNN using frequency domain features
-  - ```Knn_train_tdf.m``` trains and tests kNN using time domain features
-  - ```Knn_train_all.m``` trains and tests kNN using both frequency and time domain features
+  - ```extract_features.m``` extracts time and frequency features for each class of sounds
+  - ```normalization.m``` brings back every value for every feature in a common scale of values, and it is a very important step for both the PCA and the kNN
+  - ```knn_train_fdf.m``` trains and tests kNN using frequency domain features
+  - ```knn_train_tdf.m``` trains and tests kNN using time domain features
+  - ```knn_train_all.m``` trains and tests kNN using both frequency and time domain features
 
 ## PCA
 PCA stands for Principal Component Analysis and it maps features to new coordinate system by compute covariance matrix R and then
